@@ -16,7 +16,7 @@ public class BinarySearch {
             guess = arr[mid];
 
             if (guess == number) {
-                return number;
+                return guess;
             }
             if (guess > number) {
                 high = mid - 1;
