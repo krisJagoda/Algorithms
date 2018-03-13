@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 public class Factorial {
 
-    BigInteger factorial(BigInteger n){
+    public BigInteger factorial(BigInteger n){
         int result = n.compareTo(BigInteger.ZERO);
 
         if (result < 0){
